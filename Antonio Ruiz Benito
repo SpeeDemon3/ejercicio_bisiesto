@@ -1,0 +1,11 @@
+Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+def comprobador(year):
+    if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+	    print("Es bisiesto")
+    else:
+	    print("No es bisiesto")
+	    
+
+comprobador(2022)
